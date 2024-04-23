@@ -19,5 +19,15 @@ public class BitTreeLeaf implements BitTreeNode {
   public BitTreeLeaf(String value) {
     this.value = value;
   } // BitTreeLeaf(String)
-  
+
+  // ---------------------------------------------------
+  // | Methods |
+  // ---------------
+  public boolean hasLeaf() {
+    if (this.value != null) {
+      return true;
+    }
+    return false;
+  }
+
 } // class BitTreeLeaf

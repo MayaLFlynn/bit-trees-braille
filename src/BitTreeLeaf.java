@@ -1,3 +1,9 @@
+/**
+ * BitTreeLeaf is a node in a BitTree that has no children, but does have a value attached to it
+ * 
+ * @author Maya Flynn
+ */
+
 public class BitTreeLeaf implements BitTreeNode {
   // ---------------------------------------------------
   // | Fields |
@@ -19,15 +25,5 @@ public class BitTreeLeaf implements BitTreeNode {
   public BitTreeLeaf(String value) {
     this.value = value;
   } // BitTreeLeaf(String)
-
-  // ---------------------------------------------------
-  // | Methods |
-  // ---------------
-  public boolean hasLeaf() {
-    if (this.value != null) {
-      return true;
-    }
-    return false;
-  }
 
 } // class BitTreeLeaf

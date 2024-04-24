@@ -1,3 +1,9 @@
+/**
+ * BitTreeInteriorNode is a node in a BitTree that has two children, and no value attached to it
+ * 
+ * @author Maya Flynn
+ */
+
 public class BitTreeInteriorNode implements BitTreeNode {
   // ---------------------------------------------------
   // | Fields |
@@ -31,15 +37,15 @@ public class BitTreeInteriorNode implements BitTreeNode {
   public boolean hasChildZero() {
     if (this.childZero != null) {
       return true;
-    }
+    } // if
     return false;
-  }
+  } // hasChildZero()
 
   public boolean hasChildOne() {
     if (this.childOne != null) {
       return true;
-    }
+    } // if
     return false;
-  }
+  } // hasChildOne()
 
 } // class BitTreeInteriorNode

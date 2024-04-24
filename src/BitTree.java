@@ -31,6 +31,13 @@ public class BitTree {
     set(bits, value, root);
   }
 
+  /**
+   * 
+   * @param bits
+   * @pre bits.length() must be the same length as the depth of the tree
+   * @return
+   * @throws Exception
+   */
   public String get(String bits) throws Exception {
     return get(bits, root);
   }
